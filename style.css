@@ -163,3 +163,25 @@ button>a {
     border-radius: 20px;
     box-shadow: 5px 8px 10px #DFDFDF;
 }
+
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+    .textCard {
+        width: 90%;
+    }
+    .containerMargin {
+        margin: 40px auto;
+    }
+}
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+    #sidenav a {
+        font-size: 15px;
+    }
+    .row, .col, .card {
+        width: 100% !important;
+    }
+}
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+}
