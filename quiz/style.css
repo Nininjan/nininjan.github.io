@@ -365,3 +365,36 @@ footer .next_btn:hover {
     cursor: pointer;
     transition: all 0.3s ease;
 }
+
+@media only screen and (max-width: 1200px) {
+    /*Tablets [601px -> 1200px]*/
+}
+
+@media only screen and (max-width: 600px) {
+
+    /*Big smartphones [426px -> 600px]*/
+    .start_btn,
+    .info_box,
+    .quiz_box,
+    .result_box {
+        width: 90%;
+        height: 90%;
+    }
+
+    * {
+        font-size: 15px;
+    }
+
+    .title {
+        display: none;
+    }
+
+    section .option_list .option {
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+    /*Small smartphones [325px -> 425px]*/
+}
