@@ -373,8 +373,6 @@ footer .next_btn:hover {
     .info_box,
     .quiz_box,
     .result_box {
-    top: 0;
-    left: 0;
     margin: auto auto;
     }
     
