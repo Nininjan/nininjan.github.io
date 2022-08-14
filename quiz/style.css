@@ -368,15 +368,12 @@ footer .next_btn:hover {
 
 @media only screen and (max-width: 600px) {
     /*Big smartphones [426px -> 600px]*/
-    .start_btn,
-    .info_box,
-    .quiz_box,
-    .result_box {
+    .quiz_box {
         width: 90%;
-        height: 90%;
+        height: 95%;
     }
 
-    * {
+    section .que_text {
         font-size: 15px;
     }
 
