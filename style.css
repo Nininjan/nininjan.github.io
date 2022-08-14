@@ -178,8 +178,8 @@ button>a {
     #sidenav a {
         font-size: 15px;
     }
-    .row, .col, .card {
-        width: 100% !important;
+    .col {
+        flex: 1 0 100%;
     }
 }
 @media only screen and (max-width: 425px){
