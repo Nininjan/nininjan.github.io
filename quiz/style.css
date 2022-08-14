@@ -387,7 +387,7 @@ footer .next_btn:hover {
     }
     
     .info_box .info_list, .info_box .info_title, .info_box buttons {
-        padding: 0;
+        padding: 5px 5px;
     }
 
     section .que_text {
