@@ -168,6 +168,7 @@ button>a {
     /*Tablets [601px -> 1200px]*/
     .textCard {
         width: 90%;
+	padding: 25px;
     }
     .containerMargin {
         margin: 40px auto;
