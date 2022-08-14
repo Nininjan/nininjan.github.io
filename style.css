@@ -1,0 +1,165 @@
+@font-face {
+    font-family: League Spartan;
+    src: url(/fonts/LeagueSpartan-Medium.woff);
+  }
+
+  @font-face {
+    font-family: Montserrat;
+    src: url(/fonts/Montserrat-Regular.woff);
+  }
+
+body {
+    background: #FEFAF6;
+    margin: auto auto;
+}
+
+#header {
+    padding: 10%;
+    height: 100%;
+}
+
+#headerCont {
+    height: 100vh;
+    background-image: url(/img/bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.fa-brands {
+    color: #0F0E0C;
+    font-size: 40px;
+}
+
+#headerImg {
+    height: 50vh;
+    border-radius: 50%;
+}
+
+.centerRow {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.navActive {
+    text-decoration: underline;
+}
+
+#logo {
+    height: 50px;
+    width: 50px;
+}
+
+.col1 {
+    flex-grow: 2;
+}
+
+.col2 {
+    flex-grow: 3;
+    text-align: center;
+}
+
+.col2>h1 {
+    font-size: 100px;
+}
+
+.col2>p {
+    font-size: 30px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+    font-family: 'League Spartan', sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #0F0E0C;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+button {
+    background-color: #0F0E0C;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-transform: lowercase;
+    display: block;
+    padding: 6px 10px 6px 10px;
+    color: white;
+}
+
+button>a {
+    font-family: 'League Spartan', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+
+    text-decoration: none;
+}
+
+.containerMargin {
+    margin: 100px auto;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+.textCard {
+    width: 60vw;
+    margin: 50px auto 50px auto;
+    padding: 50px;
+    width: 50vw;
+}
+
+.pinkpeach {
+    background: rgb(255, 238, 196);
+    background: linear-gradient(315deg, rgba(255, 238, 196, 1) 0%, rgba(255, 205, 226, 1) 100%);
+    border-radius: 20px;
+    box-shadow: 5px 8px 10px #DFDFDF;
+}
+
+.bluepurple {
+    background: rgb(214, 207, 239);
+    background: linear-gradient(315deg, rgba(214, 207, 239, 1) 0%, rgba(187, 237, 242, 1) 100%);
+    border-radius: 20px;
+    box-shadow: 5px 8px 10px #DFDFDF;
+}
+
+.peachgreen {
+    background: rgb(182, 247, 209);
+    background: linear-gradient(315deg, rgba(182, 247, 209, 1) 0%, rgba(255, 199, 173, 1) 100%);
+    border-radius: 20px;
+    box-shadow: 5px 8px 10px #DFDFDF;
+}
+
+.purplepink {
+    background: rgb(255, 205, 226);
+    background: linear-gradient(315deg, rgba(255, 205, 226, 1) 0%, rgba(214, 207, 239, 1) 100%);
+    border-radius: 20px;
+    box-shadow: 5px 8px 10px #DFDFDF;
+}
+
+.bluegreen {
+    background: rgb(182, 247, 209);
+    background: linear-gradient(315deg, rgba(182, 247, 209, 1) 0%, rgba(187, 237, 242, 1) 100%);
+    border-radius: 20px;
+    box-shadow: 5px 8px 10px #DFDFDF;
+}

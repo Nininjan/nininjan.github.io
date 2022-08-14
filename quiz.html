@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ninis Quiz</title>
+    <link rel="stylesheet" href="quiz/style.css">
+    <script src="https://kit.fontawesome.com/de2698ed8d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="start_btn"><button>Starta quizet</button></div>
+    <div class="info_box">
+        <div class="info_title">
+            <span>Regler</span>
+        </div>
+        <div class="info_list">
+            <div class="info">1. Du har <span>15 sek</span> på dig att svara på frågan.</div>
+            <div class="info">2. När du väl valt ett alternativ kan du inte ändra dig.</div>
+            <div class="info">3. Om tiden tar slut kan du inte svara på frågan.</div>
+            <div class="info">4. Du får poäng för varje rätt svar.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Avsluta</button>
+            <button class="restart">Fortsätt</button>
+        </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Hur väl känner du mig?</div>
+            <div class="timer">
+                <div class="time_text">Tid kvar</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+            </div>
+            <div class="option_list">
+            </div>
+        </section>
+
+        <!-- Quiz Box Footer -->
+        <footer>
+            <div class="total_que">
+            </div>
+            <button class="next_btn">Nästa fråga</button>
+        </footer>
+    </div>
+
+    <!-- Result Box -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fa-solid fa-crown"></i>
+        </div>
+        <div class="complete_text">Quizet är avslutat!</div>
+        <div class="score_text">
+        </div>
+        <div class="buttons">
+            <button class="restart">Gör om quizet</button>
+            <button class="quit">Avsluta</button>
+        </div>
+    </div>
+
+    <script src="quiz/main.js"></script>
+    <script src="quiz/questions.js"></script>
+</body>
+
+</html>

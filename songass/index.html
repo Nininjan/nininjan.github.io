@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Nini Le - Projektarbete M4</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main.css">
+<script src="main.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+</head> <!--End head-->
+
+<body>
+    <div id="wrapper">
+    <h1>LET'S PLAY SONG ASSOCIATION</h1>
+<main>
+<!--
+    <p>Regler:</p>
+    <p>Varje spelare kommer få ett random ord, och har 10 sekunder på sig att sjunga en existerande låt som innehåller ordet. Konsensus gäller om låten är godkänd eller inte. Lyckas spelaren så får den 1p, om inte förlorar den 1p. Kommer man ner till 0p åker man ut, och först till 10p vinner spelet.</p>
+-->
+<input type="button" class="info" value="Regler" onclick="regler();" /> 
+<input type="button" class="reset" value="Starta om spelet" onclick="reset();" /><br />
+<p id="regler">Varje spelare kommer få ett ord, och har 10 sek på sig att sjunga en låt med ordet i sig. Konsensus råder kring om det är godkänt eller ej. Lyckas man så får man 1p, annars förlorar man 1p. Först till 10p vinner, och vid 0p åker man ut.</p>
+    
+<div id="countdown">Timer</div>
+
+    <form name="f1">
+        <input type="button" class="slump" value="Klicka för ett random ord" onclick="random();" /><br />
+    </form><br/>
+    <div id="texter"></div> 
+    </main> <!-- End main-->
+
+    <aside>
+<p>Poängtavla</p>
+<input type="text" id="namn1" placeholder="Player 1"/>
+<input type="text" id="points1" value="5" size="1"/>
+<input type="button" class="plus" value="+ 1" onclick="plus1();" />
+<input type="button" class="minus" value="- 1" onclick="minus1();" /><br />
+<input type="text" id="namn2" placeholder="Player 2"/>
+<input type="text" id="points2" value="5" size="1"/>
+<input type="button" class="plus" value="+ 1" onclick="plus2();" />
+<input type="button" class="minus" value="- 1" onclick="minus2();" /><br />
+<input type="text" id="namn3" placeholder="Player 3"/>
+<input type="text" id="points3" value="5" size="1"/>
+<input type="button" class="plus" value="+ 1" onclick="plus3();" />
+<input type="button" class="minus" value="- 1" onclick="minus3();" /><br />
+<input type="text" id="namn4" placeholder="Player 4"/>
+<input type="text" id="points4" value="5" size="1"/>
+<input type="button" class="plus" value="+ 1" onclick="plus4();" />
+<input type="button" class="minus" value="- 1" onclick="minus4();" /><br />
+<input type="text" id="namn5" placeholder="Player 5"/>
+<input type="text" id="points5" value="5" size="1"/>
+<input type="button" class="plus" value="+ 1" onclick="plus5();" />
+<input type="button" class="minus" value="- 1" onclick="minus5();" /><br />
+<input type="text" id="namn6" placeholder="Player 6"/>
+<input type="text" id="points6" value="5" size="1"/>
+<input type="button" class="plus" value="+ 1" onclick="plus6();" />
+<input type="button" class="minus" value="- 1" onclick="minus6();" /><br />
+<input type="text" id="namn7" placeholder="Player 7"/>
+<input type="text" id="points7" value="5" size="1"/>
+<input type="button" class="plus" value="+ 1" onclick="plus7();" />
+<input type="button" class="minus" value="- 1" onclick="minus7();" /><br />
+<input type="text" id="namn8" placeholder="Player 8"/>
+<input type="text" id="points8" value="5" size="1"/>
+<input type="button" class="plus" value="+ 1" onclick="plus8();" />
+<input type="button" class="minus" value="- 1" onclick="minus8();" /><br />
+<br/>
+
+    </aside> <!--End aside-->
+        
+        </div> <!--End wrapper-->
+
+    
+</body> <!--End body-->
+
+</html> <!--End HTML-->
