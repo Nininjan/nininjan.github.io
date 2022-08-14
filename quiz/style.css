@@ -381,9 +381,13 @@ footer .next_btn:hover {
         height: auto;
     }
     
-    .infobox .activeInfo {
+    .infobox .activeInfo, .infobox, .activeInfo {
         width: 350px;
         height: auto;
+    }
+    
+    .info_box .info_list, .info_box .info_title, .info_box buttons {
+        padding: 0;
     }
 
     section .que_text {
