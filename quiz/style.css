@@ -381,7 +381,7 @@ footer .next_btn:hover {
         height: auto;
     }
     
-    .infobox {
+    .infobox .activeInfo {
         width: 350px;
         height: auto;
     }
